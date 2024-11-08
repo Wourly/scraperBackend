@@ -1,0 +1,20 @@
+# Ignore build directory
+/build/
+
+# Ignore CMake-generated files
+CMakeCache.txt
+CMakeFiles/
+
+# Ignore generated project files (platform-specific)
+*.sln
+*.vcxproj
+*.xcodeproj
+
+# Ignore executables and object files
+*.exe
+*.out
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
