@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: cpp-server
-    env: linux
-    plan: free
-    buildCommand: "cmake -S . -B build && cmake --build build"
-    startCommand: "./build/Debug/my_executable"
-    autoDeploy: true
