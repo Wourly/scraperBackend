@@ -9,8 +9,9 @@ const PORT = process.env.PORT || 3000;
 //---------------------------------------------------------------
 app.use(express.json());
 app.use(cors({
-    origin: ['http://127.0.0.1:5173/', 'https://mmscraper.netlify.app/'],
-    allowedHeaders: ['Content-Type']
+    origin: ['http://127.0.0.1:5173', 'https://mmscraper.netlify.app'],
+    allowedHeaders: ['Content-Type'],
+    methods: ['GET', 'POST', 'OPTIONS']
 }));
 app.use((req, res, next) => {
     res.setHeader('Content-Type', 'text/html; charset=utf-8');
