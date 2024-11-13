@@ -1,0 +1,41 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment files
+.env
+.env.* 
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor specific files
+.vscode/
+.idea/
+
+# Build output
+/dist
+/build
+
+# Dependency directories
+jspm_packages/
+
+# npm package-lock
+package-lock.json
+yarn.lock
+
+# .env for production (this should be in .gitignore, but in case)
+*.env
+
+# Generated files
+*.tgz
+*.zip
+
+# Ignore npm debug and temporary files
+npm-debug.log*
+.yarn-integrity

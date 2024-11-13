@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 //---------------------------------------------------------------
 app.use(express.json());
 app.use(cors({
-    origin: ['http://127.0.0.1:5173/', 'http://anotherdomain.com'],
+    origin: ['http://127.0.0.1:5173/', 'https://mmscraper.netlify.app/'],
     allowedHeaders: ['Content-Type']
 }));
 app.use((req, res, next) => {
@@ -33,7 +33,7 @@ app.post('/scrape', async (req: Request, res: Response) => {
 
 // Default server display
 app.get('/scrape', async (req: Request, res: Response) => {
-    const query = 'venus+atmosphere'; // Static query for now
+    const query = 'restaurants+nearby'; // Static query for now
 
     provideResponse (query, res)
 });
