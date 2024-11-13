@@ -1,13 +1,13 @@
 {
-    "compilerOptions": {
-      "target": "ES2020",
-      "module": "CommonJS",
-      "outDir": "./dist",  // Compiled JS will be output here
-      "rootDir": "./src",  // Your source code folder
-      "strict": true,
-      "esModuleInterop": true,  // Ensures compatibility with commonjs modules
-      "skipLibCheck": true
-    },
-    "include": ["src/**/*.ts"],  // Include all .ts files in the 'src' folder
-    "exclude": ["node_modules"]
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "outDir": "./dist",  // Compiled JS will be output here
+    "rootDir": "./src",  // Your source code folder
+    "strict": true,
+    "esModuleInterop": true,  // Ensures compatibility with commonjs modules
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.ts"],  // Include all .ts files in the 'src' folder
+  "exclude": ["node_modules"]
 }

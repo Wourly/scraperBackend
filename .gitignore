@@ -19,7 +19,6 @@ Thumbs.db
 .idea/
 
 # Build output
-/dist
 /build
 
 # Dependency directories
